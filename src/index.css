@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.blur {
+  position: absolute;
+  z-index: 0;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(2px);
+  width: 100vw;
+  height: 100vh;
+}
+.card {
+    background: rgba(255, 255, 255,0.7);
+    border: 2px solid white;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+
+.error { 
+  color: red;
+}
